@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>ProblemDetailsHelper</Title>
+    <Authors>Valecass</Authors>
+    <Company>Valerio Cassano</Company>
+    <Description>An extension to khellang ProblemDetailsMiddleware with an extended ProblemDetailsException implementation</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hellang.Middleware.ProblemDetails" Version="6.5.1" />
+  </ItemGroup>
+
+</Project>
