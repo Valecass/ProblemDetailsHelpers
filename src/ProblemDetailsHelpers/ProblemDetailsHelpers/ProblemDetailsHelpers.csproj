@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Title>ProblemDetailsHelper</Title>
-	<Version>1.0.1</Version>
+	<Version>1.0.2</Version>
     <Authors>Valecass</Authors>
     <Company>Valerio Cassano</Company>
     <Description>An extension to khellang ProblemDetailsMiddleware with an extended ProblemDetailsException implementation</Description>
