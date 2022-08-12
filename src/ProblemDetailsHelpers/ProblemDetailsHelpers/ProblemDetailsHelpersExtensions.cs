@@ -42,7 +42,7 @@ namespace ProblemDetailsHelpers
         /// </summary>
         /// <param name="app">The application builder to add the middleware to.</param>
         /// <exception cref="InvalidOperationException">If <see cref="AddProblemDetails(IServiceCollection)"/> hasn't been called.</exception>
-        public static IApplicationBuilder UseProblemDetails(this IApplicationBuilder app)
+        public static IApplicationBuilder UseProblemDetailsExtended(this IApplicationBuilder app)
         {
             return app.UseProblemDetails();            
         }
